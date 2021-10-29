@@ -27,6 +27,8 @@ function json(){
                 jalert.style.display = "flex";
                 jalert.style.transition = "all 1s";
                 p.innerText = "Datos procesados a JSON excitosamente!!!";
+                document.querySelector("#ajax").addEventListener("click", ajax);
+
                 
             }
         }
@@ -58,4 +60,3 @@ function ajax(){
         }
     }
 }
-document.querySelector("#ajax").addEventListener("click", ajax);
