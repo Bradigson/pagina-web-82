@@ -1,0 +1,113 @@
+/*======================section one====================*/
+.sesion1{
+    background:url(../imgs/ooh4_f3a8_190117.jpg);
+    background-size: cover;
+    background-position:bottom;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.layer{
+    font-size:100px;
+    font-weight:600;
+    color:#eee;
+    text-shadow:1px 10px 10px rgba(0,0,0);
+}
+.sesion1__content{
+    position:absolute;
+    z-index: 50;
+}
+#particles-js{
+    
+    position: absolute;
+    width:100%;
+    height: 100vh;
+}
+
+/*=====================section two====================*/
+.sesion2{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:url(../imgs/podium-09_generated.jpg);
+    background-size:cover;
+    background-position:center;
+    
+}
+#sesion2__content1{
+
+
+    background:rgba(255, 255, 255, 0.281);
+    backdrop-filter:blur(5px);
+    width:80%;
+    height:80vh;
+    border-radius:10px;
+   
+}
+#botones{
+    border-radius:10px 10px 0px 0px;
+    background:rgba(40, 180, 99,.6);
+    height:80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
+
+#ajax, #json{
+    padding:5px 70px;
+}
+
+
+#result{
+    width:85%;
+    background:#fff;
+    height:55vh;
+    margin: auto;
+    margin-top:60px;
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    overflow-y:auto;
+}
+#jalert{
+    width:30%;
+    height:30vh;
+    background:#eee;
+    position: absolute;
+    border-radius: 10px;
+    border-top:7px solid #58D68D ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    display:none;
+    flex-direction: column;
+}
+
+.bxs-check-circle{
+    font-size:100px;
+    color:#58D68D;
+    
+}
+#close{
+    border:none;
+    outline: none;
+    box-shadow: none;
+}
+
+::-webkit-scrollbar{
+    width:14px;
+    background:#eee;
+}
+::-webkit-scrollbar-thumb{
+    border-radius:20rem;
+    background:#58D68D;
+    border:3px solid #eee;
+}
